@@ -1,0 +1,11 @@
+.title{
+ 
+  color: black;
+  font-weight: bold;
+  display: flex;
+}
+
+.para{
+  padding-top: 20px;
+}
+

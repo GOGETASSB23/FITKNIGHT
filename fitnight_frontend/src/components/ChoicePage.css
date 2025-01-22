@@ -1,0 +1,35 @@
+.choice-page-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+       /* Replace with your batman background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  
+  .choice-button {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .choice-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(255, 214, 0, 0.2);
+  }
+  
+  .info-card {
+    transition: transform 0.3s ease;
+  }
+  
+  .info-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .choice-body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
